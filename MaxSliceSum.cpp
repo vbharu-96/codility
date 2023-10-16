@@ -1,6 +1,6 @@
 //A non-empty array A consisting of N integers is given. A pair of integers (P, Q), 
 //such that 0 ≤ P ≤ Q < N, is called a slice of array A. The sum of a slice (P, Q) is the total of A[P] + A[P+1] + ... + A[Q].
-#include<iostream>
+#include<headers_req.h>
 #define INM -2147483648
 int MaxSliceSum(vector<int> &A) {
     // Implement your solution here
