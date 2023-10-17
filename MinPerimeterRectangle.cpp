@@ -16,10 +16,8 @@ int MinPerimeterRectangle(int N) {
     if(N == 1) return 4;
     int d = 0;
     for(int i = 1;i<=N/2;i++){
-        if(N%i == 0){
-            if(N/i < i) break;
-            d = i;
-        }
+        if(N/i < i) break;
+        if(N%i == 0) d = i;
     }
     return 2*(d+(N/d));
 }
