@@ -25,3 +25,5 @@ int MinPerimeterRectangle(int N) {
 }
 
 /* 5 is the largest on after which the repetion of factors starts so find it and take that factors to return the smallest parameter*/
+
+/* got 90%  */
