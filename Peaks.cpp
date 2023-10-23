@@ -40,7 +40,7 @@ However, array A cannot be divided into four blocks, (1, 2, 3), (4, 3, 4), (1, 2
 
 int Peaks(vector<int> &A) {
     // Implement your solution here
-        int s = A.size();
+    int s = A.size();
     vector<int>p;
     for(int i = 1;i<s-1;i++){
         if(A[i]>A[i+1] && A[i]>A[i-1]){
